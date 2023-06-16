@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹디자인기능사 레이아웃 A-4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        #header {
+            width: 100%;
+            display: flex;
+        }
+        .logo {
+            width: 20%;
+            height: 100px;
+            background-color: #aaa;
+        }
+        .menu {
+            width: 80%;
+            height: 100px;
+            background-color: #a3a3a3;
+        }
+        #slider {
+            width: 100%;
+            height: 300px;
+            background-color: #bbb;
+        }
+        #contents {
+            width: 100%;
+            display: flex;
+        }
+        .notice {
+            width: 33.3333%;
+            height: 200px;
+            background-color: #ccc;
+        }
+        .content1 {
+            width: 33.3333%;
+            height: 200px;
+            background-color: #c3c3c3;
+        }
+        .content2 {
+            width: 33.3333%;
+            height: 200px;
+            background-color: #ccc;
+        }
+        #footer {
+            width: 100%;
+            display: flex;
+        }
+        .footer {
+            width: 80%;
+            height: 100px; 
+        }
+        .lowmenu {
+            width: 100%;
+            height: 50%;
+            background-color: #ddd;
+        }
+        .copyright {
+            width: 100%;
+            height: 50%;
+            background-color: #d3d3d3;
+        }
+        .site {
+            width: 20%;
+            height: 100px;
+            background-color: #eee;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div class="logo"></div>
+            <div class="menu"></div>
+        </div>
+        <!-- header -->
+        <div id="slider"></div>
+        <!-- slider -->
+        <div id="contents">
+            <div class="notice"></div>
+            <div class="content1"></div>
+            <div class="content2"></div>
+        </div>
+        <!-- contents -->
+        <div id="footer">
+            <div class="footer">
+                <div class="lowmenu"></div>
+                <div class="copyright"></div>
+            </div>
+            <div class="site"></div>
+        </div>
+    </div>
+</body>
+</html>
