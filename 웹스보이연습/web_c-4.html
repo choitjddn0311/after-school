@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹디자인기능사 레이아웃 C-4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap {
+            width: 1000px;
+            height: 650px;
+            margin: 0;
+            display: flex;
+        } 
+        
+        #aside {
+            width: 20%;
+            background-color: #aaa;
+        }
+        #main {
+            width: 80%;
+            height: 650px;
+            margin: 0;
+        }
+        .logo {
+            width: 100%;
+            height: 15%;
+            background-color: #b2b2b2;
+        }
+        #slider {
+            width: 80%;
+            height: 350px;
+            background-color: #bbb;
+        }
+        #contents {
+            width: 80%;
+            height: 200px;
+            display: flex;
+        }
+        .notice {
+            width: 33.3333%;
+            background-color: #858585;
+        }
+        .gallery {
+            width: 33.3333%;
+            background-color: #a7a7a7;
+        }
+        .go {
+            width: 33.333%;
+            background-color: #858585;
+        }
+        #footer {
+            width: 80%;
+            height: 100px;
+            display: flex;
+        }
+        .unlogo {
+            width: 20%;
+            background-color: #b1b1b1;
+        }
+        .copyright {
+            width: 60%;
+            background-color: #929292;
+        }
+        .family {
+            width: 20%;
+            background-color: #b1b1b1;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="aside">
+            <div class="logo"></div>
+            <div class="nav"></div>
+        </div>
+    <div id="main">
+        <div id="slider"></div>
+        <div id="contents">
+            <div class="notice"></div>
+            <div class="gallery"></div>
+            <div class="go"></div>
+        </div>
+        <div id="footer">
+            <div class="unlogo"></div>
+            <div class="copyright"></div>
+            <div class="family"></div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
