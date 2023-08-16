@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrap {
+    width: 1920px;
+    height: 4778.72px;
+}
+#header {
+    width: 100%;
+    height: 64px;
+    background-color: #efefef;
+}
+#header > ul {
+    list-style: none;
+}
+#header > ul > a {
+    float: left;
+    margin-left: 100px;
+}
+.container {
+    width: 75px;
+    height: 29px;
+    position: relative;
+}
+.container > img {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 17px;
+    margin-left: 15px;
+}
+#main > h1 {
+    font-weight: 400;
+    margin-left: 100px;
+}
+#blue {
+    color: blue;
+}
+#red {
+    color: red      ;
+}
+#green{
+    color: green;
+}
+#yellow{
+    color: yellow;
+}
