@@ -5,6 +5,10 @@ body {
     box-sizing: border-box;
     user-select: text;
 }
+a {
+    text-decoration: none;
+    display: block;
+}
 
 .navbar {
     display: flex;
@@ -55,7 +59,7 @@ nav img:hover {
 .title {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .title h1 {
     text-align: center;
@@ -116,14 +120,84 @@ nav img:hover {
     border: solid 1px #1a73e8;
 }
 
-.title2 .left {
+.contents {
+    display: flex;
+    justify-content: center;
     margin-top: 80px;
-    margin-left: 400px;
 }
-.title2 .right {
-    margin-left: 90px;
-    margin-bottom: 8px;
+.left {
+    margin-right: 100px;
+    padding: 0;
 }
-.title2 h3 {
+.right {
+    margin-left: 10px;
+}
+.left h3 {
     text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.right h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.left a {
+    text-align: center;
+    margin-top: 16px;
+    text-decoration: none;
+}
+.right a {
+    text-align: center;
+    margin-top: 16px;
+    text-decoration: none;
+}
+.title3 h3 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 500;
+    margin-bottom: 36px;
+    margin-top: 80px;
+}
+.but {
+    text-align: center;
+}
+.title3 button {
+    width: 230px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #1A73E8;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none ;
+    font-weight: 100;
+}
+.title3 button:hover {
+    background-color: #1e40af;
+}
+.content1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.worldwide {
+    margin-right: 30px;
+}
+.global {
+    margin-left: 30px;
+}
+.worldwide h4 {
+    margin-top: 24px;
+    font-size: 27px;
+    font-weight: 500;
+}
+.global h4 {
+    margin-top: 24px;
+    font-size: 26px;
+    font-weight: 500;
 }
