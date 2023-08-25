@@ -201,3 +201,80 @@ nav img:hover {
     font-size: 26px;
     font-weight: 500;
 }
+.worldwide a {
+    margin-top: -20px;
+}
+.global a {
+    margin-top: -20px;
+}
+.title4 h3 {
+    font-size: 75px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.but1 {
+    text-align: center;
+}
+.title4 button {
+    width: 137px;
+    height: 47px;
+    background-color: #1A73E8;
+    color: #ffffff;
+    font-size: 17px;
+    border: none;
+    border-radius: 3.5px;
+}
+.content2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.al {
+    text-align: center;
+    margin-right: 70px;
+}
+.al h4 {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 26px;
+}
+.al a {
+    margin-top: -20px;
+}
+.emergency {
+    text-align: center;
+    margin-right: 70px;
+}
+.emergency h4 {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 26px;
+}
+.emergency a {
+    margin-top: -15px;
+}
+.father {
+    text-align: center;
+    margin-right: 70px;
+}
+.father h4 {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 26px;
+}
+.father a {
+    margin-top: -20px;
+}
+.thanks {
+    text-align: center;
+}
+.thanks h4 {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 26px;
+}
+.thanks a {
+    margin-top: -15px;
+}
