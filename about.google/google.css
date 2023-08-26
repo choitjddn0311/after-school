@@ -24,7 +24,7 @@ nav a {
     font-size: 16px;
     text-decoration: none;
     color: #5f6368;
-    font-weight: 400;
+    font-weight: 500;
     padding: 12px;
 }
 nav a:hover {
@@ -178,6 +178,7 @@ nav img:hover {
 }
 .title3 button:hover {
     background-color: #1e40af;
+    cursor: pointer;
 }
 .content1 {
     display: flex;
@@ -225,6 +226,10 @@ nav img:hover {
     font-size: 17px;
     border: none;
     border-radius: 3.5px;
+}
+.title4 button:hover {
+    background-color: #1e40af;
+    cursor: pointer;
 }
 .content2 {
     display: flex;
